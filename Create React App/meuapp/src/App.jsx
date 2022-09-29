@@ -1,36 +1,24 @@
 import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Form from './Form/Form';
 
-const titulo = <h1>Esse é um título</h1>;
+const Teste = () => {
+  const active = true;
+  if (active) {
+    return <p>Teste</p>;
+  } else {
+    return null;
+  }
+};
 
 const App = () => {
-  const random = Math.random();
-  const ativo = false;
-
-  function mostrarNome(sobrenome) {
-    return 'André ' + sobrenome;
-  }
-
-  const carro = {
-    marca: 'Ford',
-    rodas: 4,
-  };
-
-  const estiloP = {
-    color: 'blue',
-    fontSize: '2rem',
-  };
-
   return (
     <>
-      {titulo}
-      <p>
-        {false ? 'verdade' : 'mentira'} - {10}
-        {mostrarNome('Rafael')}
-      </p>
-      <p style={estiloP}>{new Date().getFullYear()}</p>
-      <p style={estiloP}>{carro.marca}</p>
-      <p>{carro.rodas}</p>
-      <p className={ativo ? 'ativo' : 'inativo'}>{random * 1000}</p>
+      <Teste />
+      <Header />
+      <Form />
+      <Footer />
     </>
   );
 };
