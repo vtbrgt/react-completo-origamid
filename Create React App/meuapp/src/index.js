@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Exercicio from './Exercicio';
+import App from './JSXArrays';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Exercicio />
+    <App />
   </React.StrictMode>
 );
