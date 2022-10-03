@@ -5,10 +5,10 @@ const Header = () => {
     <header>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/home">Home</a>
         </li>
         <li>
-          <a href="/Produtos">Produtos</a>
+          <a href="/produtos">Produtos</a>
         </li>
       </ul>
     </header>
