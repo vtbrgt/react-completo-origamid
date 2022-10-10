@@ -6,8 +6,8 @@ const Produto = () => {
 
   return (
     <div>
-      Produto: {global.contar}{' '}
-      <button onClick={global.adicionarDois}>Adicionar</button>
+      <button onClick={() => console.log(global.dados)}>Mostrar dados</button>
+      <button onClick={global.limparDados}>Limpar dados</button>
     </div>
   );
 };

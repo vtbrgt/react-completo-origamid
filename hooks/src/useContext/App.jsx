@@ -6,7 +6,6 @@ const App = () => {
   return (
     <GlobalStorage>
       <Produto />
-      <p>Teste</p>
     </GlobalStorage>
   );
 };
