@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Radio from './Radio';
+import Checkbox from './Checkbox';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Radio />
+    <Checkbox />
   </React.StrictMode>
 );
