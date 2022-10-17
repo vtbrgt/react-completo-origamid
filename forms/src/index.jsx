@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ExercicioInput from './ExercicioInput';
+import Textarea from './Textarea';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ExercicioInput />
+    <Textarea />
   </React.StrictMode>
 );
