@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Textarea from './Textarea';
+import Select from './Select';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Textarea />
+    <Select />
   </React.StrictMode>
 );
