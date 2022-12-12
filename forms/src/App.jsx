@@ -1,10 +1,8 @@
 import React from 'react';
-import Validacao from './Validacao';
+import DesafioForm from './DesafioForm';
 
 const App = () => {
-  return (
-    <Validacao/>
-  )
+  return <DesafioForm />;
 };
 
 export default App;
