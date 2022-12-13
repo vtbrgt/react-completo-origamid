@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Produto from './CSSModules/Produto';
+import StyledComponents from './styled-components/StyledComponents';
 
 const App = () => {
   return (
     <>
-      <Produto />
+      <StyledComponents />
     </>
   );
 };
