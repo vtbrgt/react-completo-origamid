@@ -1,0 +1,13 @@
+.container {
+  background-color: tomato;
+  height: 20px;
+}
+
+.title {
+  color: tomato;
+}
+
+.AppTitulo {
+  color: aqua;
+  /* usar assim */
+}
