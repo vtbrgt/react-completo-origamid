@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import StyledComponents from './styled-components/StyledComponents';
+import ReactBootstrap from './Frameworks/ReactBootstrap';
 
 const App = () => {
   return (
     <>
-      <StyledComponents />
+      <ReactBootstrap />
     </>
   );
 };
