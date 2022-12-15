@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import Sobre from './Components/Sobre';
 import Header from './Components/Header';
+import Login from './Components/Login';
 import NaoEncontrado from './Components/NaoEncontrado';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="sobre" element={<Sobre />} />
+        <Route path="login" element={<Login />} />
         <Route path="*" element={<NaoEncontrado />} />
       </Routes>
     </BrowserRouter>
