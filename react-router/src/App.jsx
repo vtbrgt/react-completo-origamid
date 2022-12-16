@@ -5,6 +5,7 @@ import Sobre from './Components/Sobre';
 import Header from './Components/Header';
 import Login from './Components/Login';
 import NaoEncontrado from './Components/NaoEncontrado';
+import Produto from './Components/Produto';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="sobre" element={<Sobre />} />
         <Route path="login" element={<Login />} />
+        <Route path="produto/:id" element={<Produto />} />
         <Route path="*" element={<NaoEncontrado />} />
       </Routes>
     </BrowserRouter>
