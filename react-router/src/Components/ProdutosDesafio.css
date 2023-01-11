@@ -1,0 +1,20 @@
+.container-produtos {
+  width: 50%;
+  text-align: start;
+  display: grid;
+  grid: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  justify-items: stretch;
+  align-items: center;
+}
+
+.container-produtos h2 {
+  margin-top: 0.2rem;
+  font-size: 1.5rem;
+}
+
+.card-produto img {
+  width: 80%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 5px;
+}

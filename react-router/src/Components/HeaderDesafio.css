@@ -1,0 +1,26 @@
+nav ul {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.link {
+  color: black;
+  padding: 0.5rem 1rem;
+  background-color: rgba(130, 130, 130, 0.8);
+  border: 2px solid;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: rgba(179, 177, 177, 0.8);
+}
+
+.active {
+  color: deeppink !important;
+  border-color: deeppink;
+  background-color: rgba(179, 177, 177, 0.8);
+}
