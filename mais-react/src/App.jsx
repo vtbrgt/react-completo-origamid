@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Header from './Header';
 import Exemplo from './Exemplo';
+import Produtos from './Produto';
 // import Contato from './Contato';
 //const Contato = React.lazy(() => import('./Contato'));
 
@@ -18,6 +19,7 @@ function reducer(state, action) {
 
 function App() {
   const [state, dispatch] = React.useReducer(reducer, 0);
+  const [ativar, setAtivar] = React.useState(true);
 
   return (
     <div className="App">
@@ -26,6 +28,8 @@ function App() {
       <button onClick={() => dispatch('aumentar')}>+</button>
       <button onClick={() => dispatch('diminuir')}>-</button>
       <Exemplo />
+      {ativar && <Produtos titulo="Esses são os produtos" />}
+      <button onClick={() => setAtivar(!ativar)}>Toggle</button>
     </div>
   );
 }
